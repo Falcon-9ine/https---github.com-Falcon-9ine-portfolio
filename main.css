@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    font-family: 'Arial', sans-serif;
+    background: #f3f3f3; /* Light gray background for the whole page */
+    color: #333;
+    padding: 20px; /* Add some padding to ensure space around the background box */
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+header h1 {
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.profile-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+.profile-section img {
+    border-radius: 50%;
+    width: 400px;
+    margin-right: 20px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.intro h2 {
+    font-size: 24px;
+    color: #333;
+}
+.intro p {
+    font-size: 16px;
+    color: #667;
+    margin-bottom: 20px;
+}
+.buttons {
+    display: flex;
+    flex-direction: row; /* Horizontal layout */
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #e57373;
+    color: white;
+    width: 100px; /* Set fixed width */
+    height: 100px; /* Set fixed height */
+    border-radius: 50%; /* Makes the shape circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 10px; /* Horizontal margin between buttons */
+    font-size: 14px; /* Adjust font size to fit text within the circle */
+    line-height: 1.2; /* Adjust line-height for text alignment */
+}
+
+.horizontal-line {
+    border: none; /* Removes the default border style */
+    height: 1px; /* Thickness of the line */
+    background-color: #ccc; /* Color of the line */
+    margin: 20px 0; /* Space above and below the line */
+    width: 100%; /* Extend the line across the page */
+}
+
+footer {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out items evenly */
+    align-items: center; /* Center items vertically */
+    color: #667;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: px;
+}
+
+.contact-info, .social-media {
+    display: flex; /* Use flexbox for inner alignment */
+    align-items: center; /* Center items vertically */
+}
+
+.contact-info p, .social-media a {
+    margin: 0 10px; /* Add spacing between items */
+}
